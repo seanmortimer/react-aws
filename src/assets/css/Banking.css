@@ -1,0 +1,112 @@
+main {
+  font-family: sans-serif;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid cadetblue; 
+  border-radius: 1em;
+  min-width: 100%;
+}
+
+header  {
+  border: solid cadetblue; 
+  border-radius: 1em;
+  padding: 1%;
+}
+
+main > div {
+  font-family: sans-serif;
+  padding: 10px 25px;
+  border: solid cadetblue; 
+  border-radius: 1em;
+  text-align: left;
+}
+
+#idDepWd {
+  text-align: center;
+}
+
+#idDepWd > h3 {
+  text-align: left;
+}
+
+label {
+  display: flex;
+}
+
+#idDepWd input {
+  text-align: right;
+}
+
+
+#idActSelect {
+  margin: auto 5px auto 10px;
+  min-width: 100px;
+}
+
+#idActCreate {
+  padding-bottom: 2rem;
+}
+
+#idNotify {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.clWarn {
+  color: red;
+}
+
+#idActContainer  {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#idCardContainer {
+  margin-left: -20px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#idNoActs {
+  display: inline;
+  align-self: center;
+  font-size: 1.2em;
+  padding-left: 5vw;
+  
+}
+
+#idGroup > h2 {
+  display: float;
+}
+
+.clCard {
+  margin: 10px;
+  padding: 10px;
+  border: solid cadetblue; 
+  border-radius: 1em;
+  min-width: 160px;
+  width: 10vw;
+  min-height: 100px;
+  height: 10vh;
+  }
+
+
+.clCard > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+#idActTotals {
+  margin-right: -20px;
+  min-width: 30%;
+  padding: 10px;
+  border: solid cadetblue; 
+  border-radius: 1em;
+}
+
+#idActTotals > p {
+  display: flex;
+  justify-content: space-between;
+}

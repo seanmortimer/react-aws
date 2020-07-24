@@ -1,0 +1,86 @@
+.wrapper {
+	position: relative;
+	top: 0;
+	height: calc(100vh - 200px);
+}
+
+body, .wrapper {
+	min-height:  calc(100vh - 200px);
+}
+
+footer {
+    padding: 10px 50px;
+    text-align: right;
+}
+
+.clDivider {
+    border-right: solid gray 2px;
+    padding-right: 20px;
+    /* min-height: 50vh; */
+    /* align-self: center; */
+}
+
+#idListCardDeck {
+    flex-direction: column;
+}
+
+/* .clListCard {
+    word-wrap: ;
+    /* min-width: 150px; 
+    margin-bottom: 15px;
+} */
+
+.clActiveCard {
+    border: solid 4px;
+}
+
+#idAddWarning {
+    color: crimson;
+}
+
+#idSideBar {
+    /* width: 250px; */
+    overflow: hidden;
+}
+
+#idAddBtn {
+    font-size: 1.2em;
+}
+
+.nc-stre-right {
+    margin-right: -5px;
+}
+
+.nc-stre-left {
+    margin-left: -5px;
+}
+
+#idLifoNextCard {
+    display: inline-block;
+    min-width: 250px;
+}
+
+#idLifoBtns {
+    display: inline-block;
+}
+
+.cl-Lifo-Cards-enter {
+    opacity: 0;
+    background-color: #87CB16;
+  }
+  .cl-Lifo-Cards-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+    background-color: #fff;
+    transition: background-color 800ms ease-in;
+  }
+  .cl-Lifo-Cards-exit {
+       opacity: 1;
+    background-color: #FF4A55;
+
+  }
+
+  .cl-Lifo-Cards-exit-active {
+    opacity: 0;
+    transition: opacity 800ms ease-in;
+  }
