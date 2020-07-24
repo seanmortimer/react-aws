@@ -7,7 +7,7 @@ import postData from './logic/cityfetch';
 
 global.fetch = require('node-fetch');
 
-test('page renders with no data, then demo cities load', async () => {
+test.skip('page renders with no data, then demo cities load', async () => {
   await postData('http://localhost:5000/clear');
 
   render(<Cities />);
@@ -30,7 +30,7 @@ test('page renders with no data, then demo cities load', async () => {
   expect(screen.getByText('13,637,300')).toBeInTheDocument();
 });
 
-test('you can add a city', async () => {
+test.skip('you can add a city', async () => {
   await postData('http://localhost:5000/clear');
   render(<Cities />);
 
