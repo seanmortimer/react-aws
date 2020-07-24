@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Lifo from './LifoComponent';
-import { LifoList } from './lifoFifo-Logic';
+import { LifoList } from './lifoFifo-logic';
 
 const demoData = [['Ant', 10], ['Bat', 20], ['Cat', 30], ['Dog', 40]];
 
