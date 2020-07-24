@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import ListNav from './LinkedListNav';
-import LinkedList from './LinkedListLogic';
+import LinkedList from './linkedListLogic';
 
 const demoData = [['Ant', 10], ['Bat', 20], ['Cat', 30], ['Dog', 40]];
 
