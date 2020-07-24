@@ -1,4 +1,4 @@
-import LinkedList from './LinkedListLogic';
+import LinkedList from './linkedListLogic';
 
 test('inserting new head', () => {
   const list = new LinkedList();
